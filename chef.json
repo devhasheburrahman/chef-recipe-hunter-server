@@ -1,0 +1,466 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "experience": "10 years",
+        "specialty": "Italian cuisine",
+        "recipe": 50,
+        "likes": 100,
+        "rating": 4.8,
+        "picture": "https://media.istockphoto.com/id/1139610466/photo/chef-serving-spaghetti.jpg?s=612x612&w=0&k=20&c=XqN8fowXYdCr8A5YX2ERqH5gyQmq0JJZlugXHCVsP40=",
+        "chef_description": "John Smith is a talented chef with 10 years of experience in the culinary industry. His passion for Italian cuisine shines through in his creations. With an extensive repertoire of 50 recipes, he has gained a strong following and received 100 likes for his delectable dishes. You can learn more about Chef John Smith and explore his culinary journey on his website.",
+        "recipes": [
+            {
+                "chef_name": "John Smith",
+                "recipe_name": "Kung Pao Chicken",
+                "recipe_img": "https://i.ibb.co/qyZHK2S/pork-with-vegetables-asian-style-min.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chili peppers",
+                    "ginger",
+                    "garlic",
+                    "soy sauce"
+                ],
+                "cooking_method": "1. Marinate the chicken with soy sauce, cooking wine, and cornstarch. 2. Stir-fry the chicken with peanuts, chili peppers, ginger, and garlic. 3. Add a sauce made of soy sauce, vinegar, sugar, and cornstarch. 4. Serve with rice.",
+                "rating": 4.8
+            },
+            {
+                "chef_name": "John Smith",
+                "recipe_name": "Mapo Tofu",
+                "recipe_img": "https://i.ibb.co/rsH3tt0/delicious-meal-with-sambal-arrangement-1-min.jpg",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chili bean paste",
+                    "doubanjiang",
+                    "fermented black beans",
+                    "green onions"
+                ],
+                "cooking_method": "1. Cook the ground pork with chili bean paste and doubanjiang. 2. Add tofu, fermented black beans, and green onions. 3. Season with soy sauce and Sichuan peppercorns. 4. Serve with rice.",
+                "rating": 4.9
+            },
+            {
+                "chef_name": "John Smith",
+                "recipe_name": "Steamed Fish with Ginger and Scallions",
+                "recipe_img": "https://i.ibb.co/g7X3856/chicken-wings-kebab-with-rice-side-view-min-1.jpg",
+                "ingredients": [
+                    "fish",
+                    "ginger",
+                    "scallions",
+                    "soy sauce",
+                    "sesame oil",
+                    "rice wine"
+                ],
+                "cooking_method": "1. Clean and season the fish with soy sauce, sesame oil, and rice wine. 2. Top the fish with ginger and scallions. 3. Steam for 8-10 minutes. 4. Serve with hot oil and soy sauce.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Emily Davis",
+        "experience": "8 years",
+        "specialty": "French cuisine",
+        "recipe": 40,
+        "rating": 4.5,
+        "likes": 90,
+        "picture": "https://media.istockphoto.com/id/677682900/photo/cooking-class.jpg?s=612x612&w=0&k=20&c=43h4fz8br734BGLGCunGXZuW7iE6EaWV0X8dEQKCnD8=",
+        "chef_description": "Emily Davis is an experienced chef with a love for French cuisine. With 8 years of experience, she has honed her skills and created a collection of 40 delicious recipes. Her dishes have garnered 90 likes from food enthusiasts.",
+        "recipes": [
+            {
+                "chef_name": "Yang Xiao",
+                "recipe_name": "Kung Pao Chicken",
+                "recipe_img": "https://i.ibb.co/qyZHK2S/pork-with-vegetables-asian-style-min.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chili peppers",
+                    "ginger",
+                    "garlic",
+                    "soy sauce"
+                ],
+                "cooking_method": "1. Marinate the chicken with soy sauce, cooking wine, and cornstarch. 2. Stir-fry the chicken with peanuts, chili peppers, ginger, and garlic. 3. Add a sauce made of soy sauce, vinegar, sugar, and cornstarch. 4. Serve with rice.",
+                "rating": 4.8
+            },
+            {
+                "chef_name": "Yang Xiao",
+                "recipe_name": "Mapo Tofu",
+                "recipe_img": "https://i.ibb.co/rsH3tt0/delicious-meal-with-sambal-arrangement-1-min.jpg",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chili bean paste",
+                    "doubanjiang",
+                    "fermented black beans",
+                    "green onions"
+                ],
+                "cooking_method": "1. Cook the ground pork with chili bean paste and doubanjiang. 2. Add tofu, fermented black beans, and green onions. 3. Season with soy sauce and Sichuan peppercorns. 4. Serve with rice.",
+                "rating": 4.9
+            },
+            {
+                "chef_name": "Yang Xiao",
+                "recipe_name": "Steamed Fish with Ginger and Scallions",
+                "recipe_img": "https://i.ibb.co/g7X3856/chicken-wings-kebab-with-rice-side-view-min-1.jpg",
+                "ingredients": [
+                    "fish",
+                    "ginger",
+                    "scallions",
+                    "soy sauce",
+                    "sesame oil",
+                    "rice wine"
+                ],
+                "cooking_method": "1. Clean and season the fish with soy sauce, sesame oil, and rice wine. 2. Top the fish with ginger and scallions. 3. Steam for 8-10 minutes. 4. Serve with hot oil and soy sauce.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "experience": "12 years",
+        "specialty": "Asian fusion",
+        "recipe": 60,
+        "likes": 120,
+        "rating": 4.3,
+        "picture": "https://media.istockphoto.com/id/1167168313/photo/chef-putting-some-cinnamon-using-a-sifter-on-a-molecular-dish.jpg?s=612x612&w=0&k=20&c=C3Sl60ihzjqHQS_yImZituHRXwqP8yuaf0mMyM3qMx4=",
+        "chef_description": "Michael Johnson is a seasoned chef known for his expertise in Asian fusion cuisine. With 12 years of experience, he has curated a diverse collection of 60 recipes that blend flavors from different Asian cultures.",
+        "recipes": [
+            {
+                "chef_name": "Zhang Wei",
+                "recipe_name": "Kung Pao Chicken",
+                "recipe_img": "https://i.ibb.co/qyZHK2S/pork-with-vegetables-asian-style-min.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chili peppers",
+                    "ginger",
+                    "garlic",
+                    "soy sauce"
+                ],
+                "cooking_method": "1. Marinate the chicken with soy sauce, cooking wine, and cornstarch. 2. Stir-fry the chicken with peanuts, chili peppers, ginger, and garlic. 3. Add a sauce made of soy sauce, vinegar, sugar, and cornstarch. 4. Serve with rice.",
+                "rating": 4.8
+            },
+            {
+                "chef_name": "Zhang Wei",
+                "recipe_name": "Mapo Tofu",
+                "recipe_img": "https://i.ibb.co/rsH3tt0/delicious-meal-with-sambal-arrangement-1-min.jpg",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chili bean paste",
+                    "doubanjiang",
+                    "fermented black beans",
+                    "green onions"
+                ],
+                "cooking_method": "1. Cook the ground pork with chili bean paste and doubanjiang. 2. Add tofu, fermented black beans, and green onions. 3. Season with soy sauce and Sichuan peppercorns. 4. Serve with rice.",
+                "rating": 4.9
+            },
+            {
+                "chef_name": "Zhang Wei",
+                "recipe_name": "Steamed Fish with Ginger and Scallions",
+                "recipe_img": "https://i.ibb.co/g7X3856/chicken-wings-kebab-with-rice-side-view-min-1.jpg",
+                "ingredients": [
+                    "fish",
+                    "ginger",
+                    "scallions",
+                    "soy sauce",
+                    "sesame oil",
+                    "rice wine"
+                ],
+                "cooking_method": "1. Clean and season the fish with soy sauce, sesame oil, and rice wine. 2. Top the fish with ginger and scallions. 3. Steam for 8-10 minutes. 4. Serve with hot oil and soy sauce.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Sophia Rodriguez",
+        "experience": "6 years",
+        "specialty": "Mexican cuisine",
+        "recipe": 30,
+        "likes": 80,
+        "rating": 4.0,
+        "picture": "https://media.istockphoto.com/id/1017857706/photo/mexican-chef-working-in-an-authentic-mexican-restaurant.jpg?s=612x612&w=0&k=20&c=QbrcNYkxqFlFnPzsXKutuY4dy89RZ-7K-6o7B-nbT9M=",
+        "chef_description": "Sophia Rodriguez is a talented chef who brings the vibrant flavors of Mexican cuisine to life. With 6 years of experience, she has developed a repertoire of 30 authentic recipes that showcase  .",
+        "recipes": [
+            {
+                "chef_name": "Liu Ming",
+                "recipe_name": "Kung Pao Chicken",
+                "recipe_img": "https://i.ibb.co/qyZHK2S/pork-with-vegetables-asian-style-min.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chili peppers",
+                    "ginger",
+                    "garlic",
+                    "soy sauce"
+                ],
+                "cooking_method": "1. Marinate the chicken with soy sauce, cooking wine, and cornstarch. 2. Stir-fry the chicken with peanuts, chili peppers, ginger, and garlic. 3. Add a sauce made of soy sauce, vinegar, sugar, and cornstarch. 4. Serve with rice.",
+                "rating": 4.8
+            },
+            {
+                "chef_name": "Liu Ming",
+                "recipe_name": "Mapo Tofu",
+                "recipe_img": "https://i.ibb.co/rsH3tt0/delicious-meal-with-sambal-arrangement-1-min.jpg",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chili bean paste",
+                    "doubanjiang",
+                    "fermented black beans",
+                    "green onions"
+                ],
+                "cooking_method": "1. Cook the ground pork with chili bean paste and doubanjiang. 2. Add tofu, fermented black beans, and green onions. 3. Season with soy sauce and Sichuan peppercorns. 4. Serve with rice.",
+                "rating": 4.9
+            },
+            {
+                "chef_name": "Liu Ming",
+                "recipe_name": "Steamed Fish with Ginger and Scallions",
+                "recipe_img": "https://i.ibb.co/g7X3856/chicken-wings-kebab-with-rice-side-view-min-1.jpg",
+                "ingredients": [
+                    "fish",
+                    "ginger",
+                    "scallions",
+                    "soy sauce",
+                    "sesame oil",
+                    "rice wine"
+                ],
+                "cooking_method": "1. Clean and season the fish with soy sauce, sesame oil, and rice wine. 2. Top the fish with ginger and scallions. 3. Steam for 8-10 minutes. 4. Serve with hot oil and soy sauce.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Alexander Lee",
+        "experience": "10 years",
+        "specialty": "Japanese cuisine",
+        "recipe": 50,
+        "likes": 95,
+        "rating": 5.0,
+        "picture": "https://images.pexels.com/photos/3771120/pexels-photo-3771120.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "chef_description": "Alexander Lee is a skilled chef specializing in the art of Japanese cuisine. With a decade of experience, he has mastered the delicate balance of flavors and techniques that define this culinary tradition.",
+        "recipes": [
+            {
+                "chef_name": "Chen Mei",
+                "recipe_name": "Kung Pao Chicken",
+                "recipe_img": "https://i.ibb.co/qyZHK2S/pork-with-vegetables-asian-style-min.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chili peppers",
+                    "ginger",
+                    "garlic",
+                    "soy sauce"
+                ],
+                "cooking_method": "1. Marinate the chicken with soy sauce, cooking wine, and cornstarch. 2. Stir-fry the chicken with peanuts, chili peppers, ginger, and garlic. 3. Add a sauce made of soy sauce, vinegar, sugar, and cornstarch. 4. Serve with rice.",
+                "rating": 4.8
+            },
+            {
+                "chef_name": "Chen Mei",
+                "recipe_name": "Mapo Tofu",
+                "recipe_img": "https://i.ibb.co/rsH3tt0/delicious-meal-with-sambal-arrangement-1-min.jpg",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chili bean paste",
+                    "doubanjiang",
+                    "fermented black beans",
+                    "green onions"
+                ],
+                "cooking_method": "1. Cook the ground pork with chili bean paste and doubanjiang. 2. Add tofu, fermented black beans, and green onions. 3. Season with soy sauce and Sichuan peppercorns. 4. Serve with rice.",
+                "rating": 4.9
+            },
+            {
+                "chef_name": "Chen Mei",
+                "recipe_name": "Steamed Fish with Ginger and Scallions",
+                "recipe_img": "https://i.ibb.co/g7X3856/chicken-wings-kebab-with-rice-side-view-min-1.jpg",
+                "ingredients": [
+                    "fish",
+                    "ginger",
+                    "scallions",
+                    "soy sauce",
+                    "sesame oil",
+                    "rice wine"
+                ],
+                "cooking_method": "1. Clean and season the fish with soy sauce, sesame oil, and rice wine. 2. Top the fish with ginger and scallions. 3. Steam for 8-10 minutes. 4. Serve with hot oil and soy sauce.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Isabella Martinez",
+        "experience": "9 years",
+        "specialty": "Mediterranean cuisine",
+        "recipe": 45,
+        "likes": 110,
+        "rating": 4.8,
+        "picture": "https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "chef_description": "Isabella Martinez is a passionate chef dedicated to Mediterranean cuisine. With 9 years of experience, she skillfully combines fresh ingredients and aromatic spices to create flavorful dishes. ",
+        "recipes": [
+            {
+                "chef_name": "Wang Hong",
+                "recipe_name": "Kung Pao Chicken",
+                "recipe_img": "https://i.ibb.co/qyZHK2S/pork-with-vegetables-asian-style-min.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chili peppers",
+                    "ginger",
+                    "garlic",
+                    "soy sauce"
+                ],
+                "cooking_method": "1. Marinate the chicken with soy sauce, cooking wine, and cornstarch. 2. Stir-fry the chicken with peanuts, chili peppers, ginger, and garlic. 3. Add a sauce made of soy sauce, vinegar, sugar, and cornstarch. 4. Serve with rice.",
+                "rating": 4.8
+            },
+            {
+                "chef_name": "Wang Hong",
+                "recipe_name": "Mapo Tofu",
+                "recipe_img": "https://i.ibb.co/rsH3tt0/delicious-meal-with-sambal-arrangement-1-min.jpg",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chili bean paste",
+                    "doubanjiang",
+                    "fermented black beans",
+                    "green onions"
+                ],
+                "cooking_method": "1. Cook the ground pork with chili bean paste and doubanjiang. 2. Add tofu, fermented black beans, and green onions. 3. Season with soy sauce and Sichuan peppercorns. 4. Serve with rice.",
+                "rating": 4.9
+            },
+            {
+                "chef_name": "Wang Hong",
+                "recipe_name": "Steamed Fish with Ginger and Scallions",
+                "recipe_img": "https://i.ibb.co/g7X3856/chicken-wings-kebab-with-rice-side-view-min-1.jpg",
+                "ingredients": [
+                    "fish",
+                    "ginger",
+                    "scallions",
+                    "soy sauce",
+                    "sesame oil",
+                    "rice wine"
+                ],
+                "cooking_method": "1. Clean and season the fish with soy sauce, sesame oil, and rice wine. 2. Top the fish with ginger and scallions. 3. Steam for 8-10 minutes. 4. Serve with hot oil and soy sauce.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "David Thompson",
+        "experience": "15 years",
+        "specialty": "Thai cuisine",
+        "recipe": 70,
+        "likes": 150,
+        "rating": 4.9,
+        "picture": "https://media.istockphoto.com/id/677682900/photo/cooking-class.jpg?s=612x612&w=0&k=20&c=43h4fz8br734BGLGCunGXZuW7iE6EaWV0X8dEQKCnD8=",
+        "chef_description": "David Thompson is a highly experienced chef specializing in Thai cuisine. With 15 years of experience, he has mastered the intricacies of Thai flavors and techniques. His collection of 70 recipes showcases the diversity and complexity of Thai cuisine ",
+        "recipes": [
+            {
+                "chef_name": "Yang Xiao",
+                "recipe_name": "Kung Pao Chicken",
+                "recipe_img": "https://i.ibb.co/qyZHK2S/pork-with-vegetables-asian-style-min.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chili peppers",
+                    "ginger",
+                    "garlic",
+                    "soy sauce"
+                ],
+                "cooking_method": "1. Marinate the chicken with soy sauce, cooking wine, and cornstarch. 2. Stir-fry the chicken with peanuts, chili peppers, ginger, and garlic. 3. Add a sauce made of soy sauce, vinegar, sugar, and cornstarch. 4. Serve with rice.",
+                "rating": 4.8
+            },
+            {
+                "chef_name": "Yang Xiao",
+                "recipe_name": "Mapo Tofu",
+                "recipe_img": "https://i.ibb.co/rsH3tt0/delicious-meal-with-sambal-arrangement-1-min.jpg",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chili bean paste",
+                    "doubanjiang",
+                    "fermented black beans",
+                    "green onions"
+                ],
+                "cooking_method": "1. Cook the ground pork with chili bean paste and doubanjiang. 2. Add tofu, fermented black beans, and green onions. 3. Season with soy sauce and Sichuan peppercorns. 4. Serve with rice.",
+                "rating": 4.9
+            },
+            {
+                "chef_name": "Yang Xiao",
+                "recipe_name": "Steamed Fish with Ginger and Scallions",
+                "recipe_img": "https://i.ibb.co/g7X3856/chicken-wings-kebab-with-rice-side-view-min-1.jpg",
+                "ingredients": [
+                    "fish",
+                    "ginger",
+                    "scallions",
+                    "soy sauce",
+                    "sesame oil",
+                    "rice wine"
+                ],
+                "cooking_method": "1. Clean and season the fish with soy sauce, sesame oil, and rice wine. 2. Top the fish with ginger and scallions. 3. Steam for 8-10 minutes. 4. Serve with hot oil and soy sauce.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "David Thompson",
+        "experience": "15 years",
+        "specialty": "Thai cuisine",
+        "recipe": 70,
+        "likes": 150,
+        "rating": 4.9,
+        "picture": "https://images.pexels.com/photos/1482803/pexels-photo-1482803.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "chef_description": "David Thompson is a highly experienced chef specializing in Thai cuisine. With 15 years of experience, he has mastered the intricacies of Thai flavors and techniques. His collection of 70 recipes showcases the diversity and complexity of Thai cuisine .",
+        "recipes": [
+            {
+                "chef_name": "Liha Jian",
+                "recipe_name": "Kung Pao Chicken",
+                "recipe_img": "https://i.ibb.co/qyZHK2S/pork-with-vegetables-asian-style-min.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chili peppers",
+                    "ginger",
+                    "garlic",
+                    "soy sauce"
+                ],
+                "cooking_method": "1. Marinate the chicken with soy sauce, cooking wine, and cornstarch. 2. Stir-fry the chicken with peanuts, chili peppers, ginger, and garlic. 3. Add a sauce made of soy sauce, vinegar, sugar, and cornstarch. 4. Serve with rice.",
+                "rating": 4.8
+            },
+            {
+                "chef_name": "Liha Jian",
+                "recipe_name": "Mapo Tofu",
+                "recipe_img": "https://i.ibb.co/rsH3tt0/delicious-meal-with-sambal-arrangement-1-min.jpg",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chili bean paste",
+                    "doubanjiang",
+                    "fermented black beans",
+                    "green onions"
+                ],
+                "cooking_method": "1. Cook the ground pork with chili bean paste and doubanjiang. 2. Add tofu, fermented black beans, and green onions. 3. Season with soy sauce and Sichuan peppercorns. 4. Serve with rice.",
+                "rating": 4.9
+            },
+            {
+                "chef_name": "Liha Jian",
+                "recipe_name": "Steamed Fish with Ginger and Scallions",
+                "recipe_img": "https://i.ibb.co/g7X3856/chicken-wings-kebab-with-rice-side-view-min-1.jpg",
+                "ingredients": [
+                    "fish",
+                    "ginger",
+                    "scallions",
+                    "soy sauce",
+                    "sesame oil",
+                    "rice wine"
+                ],
+                "cooking_method": "1. Clean and season the fish with soy sauce, sesame oil, and rice wine. 2. Top the fish with ginger and scallions. 3. Steam for 8-10 minutes. 4. Serve with hot oil and soy sauce.",
+                "rating": 4.7
+            }
+        ]
+    }
+]
